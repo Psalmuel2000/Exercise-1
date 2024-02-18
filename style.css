@@ -1,0 +1,114 @@
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --color-heading: #00ff00;
+  --color-body: brown;
+  --color-accent: grey;
+  --btn-primary: black;
+}
+/* Topography */
+h1 {
+  color: var(--color-heading);
+  font-size: 3rem;
+}
+h2 {
+  color: var(--color-body);
+  font-size: 2rem;
+}
+h3 {
+  color: var(--color-accent);
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+p {
+  color: var(--color-body);
+  font-size: 1.7rem;
+}
+
+h1,
+p {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+/* Button */
+
+.btn {
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  width: 90%;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  background: var(--btn-primary);
+}
+.btn-secondary {
+  background: var(--btn-accent);
+}
+
+/* List */
+
+.list {
+  list-style: none;
+  color: var(--color-body);
+  font-size: 1.5rem;
+}
+
+.list__items li {
+  margin-top: 1.5rem;
+  display: block;
+}
+
+li img {
+  margin-right: 1rem;
+}
+.card {
+  margin-top: 10rem;
+}
+.card-footer .list {
+  margin-left: 0.5rem;
+}
+/* Plan */
+.plan {
+  border: 2px solid lightgreen;
+  width: 20vw;
+  max-height: 100vh;
+  border-radius: 10px;
+  margin-right: 3rem;
+  overflow: hidden;
+}
+
+.plan__header {
+  background: #fff;
+  text-align: center;
+  height: 50vh;
+}
+
+.plan__footer {
+  border: 2px solid rgb(37, 233, 174);
+  background: rgb(210, 198, 139);
+  height: 50vh;
+}
+
+.plan-block {
+  display: flex;
+  justify-content: center;
+}
+.plan__popular {
+  background: green;
+  max-width: 100%;
+  padding: 2rem;
+  top: 10px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 0 6rem;
+}
